@@ -1,0 +1,11 @@
+curl --location 'https://kongDev-ev.api.tatamotors:8443/oauth2/token' \
+--header 'Host: kongDev-ev.api.tatamotors' \
+--header 'Content-Type: application/json' \
+--data '{
+    "client_id": "hmFpMTcGERNdlxyWGGkRKUKd4lmPi1CD",
+    "client_secret": "C3nlPJtgulBeq9Pubd6FqbsMT02z7fg4",
+    "grant_type": "password",
+    "provision_key": "bYMR196Ri0aXgzsKuIalisjmBPnX3e66",
+    "authenticated_userid": "tml_ev_user",
+    "scope": "read"
+}'
